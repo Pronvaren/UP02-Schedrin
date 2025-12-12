@@ -168,5 +168,11 @@ namespace vinyl_curs
                 MessageBox.Show("Ошибка при удалении: " + ex.Message, "Ошибка", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
+
+        // СКРЫТИЕ НОМЕРА ТЕЛЕФОНА, ЛОГИНА И ФИО СОТРУДНИКА
+        private void dataGridView1_CellFormatting(object sender, DataGridViewCellFormattingEventArgs e)
+        {
+
+        }
     }
 }
